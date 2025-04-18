@@ -27,13 +27,12 @@ export const LandingPage = () => {
   };
 
   const handleReadMore = () => {
-    // TODO: navigate to the humanrightsfirst.org homepage
+    window.open('https://www.humanrightsfirst.org', '_blank', 'noopener,noreferrer');
   };
 
   return (
     <div className='bg-gray-100'>
       <div className='flex-c w-full h-full'>
-
         {/* Top Section */}
         <div className='flex-c primary-c'>
           <h1 className='text-6xl text-white text-center mb-8'>Asylum Office Grant Rate Tracker</h1>
@@ -44,16 +43,16 @@ export const LandingPage = () => {
         </div>
 
         {/* Graphs Section */}
-        <div className='flex justify-center p-16'>
-        <div className='w-1/3 flex flex-col items-center'>
+        <div className='flex justify-center h-fit py-16 px-16 gap-16'>
+          <div className='w-1/3 flex-c-1 items-center'>
             <img src={barGraph} alt='bar-graph' className='h-full' />
             <p className='text-center text-lg pt-4'>Search Grant Rates By Office</p>
           </div>
-          <div className='w-1/3 flex flex-col items-center'>
+          <div className='w-1/3 flex-c-1 items-center'>
             <img src={pieChart} alt='pie-chart' className='h-full' />
             <p className='text-center text-lg pt-4'>Search Grant Rates By Nationality</p>
           </div>
-          <div className='w-1/3 flex flex-col items-center'>
+          <div className='w-1/3 flex-c-1 items-center'>
             <img src={lineGraph} alt='line-graph' className='h-full' />
             <p className='text-center text-lg pt-4'>Search Grant Rates Over Time</p>
           </div>
@@ -71,7 +70,7 @@ export const LandingPage = () => {
 
         {/* Paper stack and description section */}
         <div className='flex justify-center items-center gap-16  p-16 mx-auto'>
-          <div className='w-1/2 rounded-lg overflow-hidden'>
+          <div className='w-1/2 rounded-2xl overflow-hidden'>
             <img src={paperStack} alt='paper-stack' className='w-full h-auto' />
           </div>
           <div className='w-1/2'>
@@ -111,6 +110,21 @@ export const LandingPage = () => {
             </div>
           </div>
         </div>
+
+        {/* Read More Button */}
+        <div className='flex justify-center items-center mb-12'>
+          <button onClick={handleReadMore} className='primary-c text-white py-2 px-4 font-bold'>
+            Read More
+          </button>
+        </div>
+
+        {/* Back to Top Button */}
+        <div className='flex justify-center items-center mb-12'>
+          <button onClick={scrollToTop} className=' hover:bg-gray-700 text-base rounded flex flex-col items-center'>
+            <span>Back To Top ^</span>
+          </button>
+        </div>
+        
       </div>
     </div>
   );
