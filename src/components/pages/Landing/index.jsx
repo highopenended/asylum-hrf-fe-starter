@@ -69,7 +69,7 @@ export const LandingPage = () => {
         </div>
 
         {/* Paper stack and description section */}
-        <div className='flex justify-center items-center gap-16  p-16 mx-auto'>
+        <div className='flex justify-center items-center gap-32 mx-16'>
           <div className='w-1/2 rounded-2xl overflow-hidden'>
             <img src={paperStack} alt='paper-stack' className='w-full h-auto' />
           </div>
