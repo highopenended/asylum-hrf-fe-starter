@@ -59,7 +59,7 @@ export const LandingPage = () => {
         </div>
 
         {/* Button Section */}
-        <div className='flex justify-center items-center gap-4 p-16'>
+        <div className='flex justify-center items-center gap-4 p-16 mb-16'>
           <button onClick={() => navigate('/graphs')} className='bg-gray-400 text-white py-2 px-4 font-bold'>
             View the Data
           </button>
@@ -69,7 +69,7 @@ export const LandingPage = () => {
         </div>
 
         {/* Paper stack and description section */}
-        <div className='flex justify-center items-center gap-32 mx-16'>
+        <div className='flex justify-center items-center gap-16 mx-16 mb-16'>
           <div className='w-1/2 rounded-2xl overflow-hidden'>
             <img src={paperStack} alt='paper-stack' className='w-full h-auto' />
           </div>
