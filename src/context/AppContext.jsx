@@ -25,6 +25,7 @@ const useAppContextProvider = () => {
   const [isDataLoading, setIsDataLoading] = useState(false);
   const [error, setError] = useState(null);
 
+  // Persist data in localStorage
   useLocalStorage({ graphData, setGraphData });
 
   const getFiscalData = async () => {
@@ -33,7 +34,7 @@ const useAppContextProvider = () => {
       return response.data;
     } catch (error) {
       console.error('Error fetching fiscal data:', error);
-      throw error; // Propagate the error instead of falling back to test data
+      throw error;
     }
   };
 
@@ -66,7 +67,7 @@ const useAppContextProvider = () => {
     } catch (error) {
       console.error('Error fetching data:', error);
       setError(error.message || 'Failed to fetch data');
-      setGraphData({}); // Clear the data on error
+      setGraphData({});
     } finally {
       setIsDataLoading(false);
     }
@@ -79,6 +80,7 @@ const useAppContextProvider = () => {
 
   const getYears = () => graphData?.yearResults?.map(({ fiscal_year }) => Number(fiscal_year)) ?? [];
 
+  // Fetch data when loading state changes
   useEffect(() => {
     if (isDataLoading) {
       fetchData();
