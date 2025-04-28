@@ -1,6 +1,0 @@
-- BUTTON: Hooked up the 'View the Data' button to link to the graphs page because no other instructions were given
-- BUTTON: 'Download the data' button is using our hook, 'useDownloadData', which let's the user download the data in csv format
-- BUTTON: 'Read More' button links to the humanrightsfirst website
-- BUTTON: 'Back to Top' button scrolls the page back to the top
-
-- Example image looked a little bit vertically squished, so I added some height constraints to replicate that

@@ -1,0 +1,43 @@
+{
+  "fiscalSummary": {
+    "granted": 24.373156706704233,
+    "adminClosed": 20.79086550343532,
+    "denied": 54.568072100571726,
+    "closedNacaraGrant": 0.17893332015224162,
+    "asylumTerminated": 0.08897236913647373,
+    "totalCases": 303465,
+    "yearResults": [
+      {
+        "fiscal_year": "2015",
+        "granted": 38.072220642593116,
+        "adminClosed": 16.093261302246233,
+        "denied": 45.621268126243955,
+        "closedNacaraGrant": 0.17059994313335228,
+        "asylumTerminated": 0.04264998578333807,
+        "totalCases": 7034,
+        "yearData": [
+          {
+            "office": "Houston, TX",
+            "granted": 19.112627986348123,
+            "adminClosed": 56.996587030716725,
+            "denied": 23.890784982935152,
+            "closedNacaraGrant": 0,
+            "asylumTerminated": 0,
+            "totalCases": 293
+          }
+        ]
+      }
+    ]
+  },
+  "citizenshipSummary": [
+    {
+      "citizenship": "MEXICO",
+      "granted": 9.133875280200934,
+      "adminClosed": 6.90104518324466,
+      "denied": 27.988359845518136,
+      "closedNacaraGrant": 27.988359845518136,
+      "asylumTerminated": 27.988359845518136,
+      "totalCases": 148108
+    }
+  ]
+} 

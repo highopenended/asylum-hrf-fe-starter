@@ -1,9 +1,17 @@
 import { createContext, useContext, useEffect, useState } from 'react';
 import axios from 'axios';
-import testData from '../data/test_data.json';
 import { useLocalStorage } from '../hooks/useLocalStorage.js';
 
 const AppContext = createContext({});
+
+// API configuration
+const API_CONFIG = {
+  baseURL: 'http://localhost:3001', // Change this to the real API URL when available
+  endpoints: {
+    fiscalSummary: '/fiscalSummary',
+    citizenshipSummary: '/citizenshipSummary'
+  }
+};
 
 /**
  * TODO: Ticket 2:
@@ -12,33 +20,60 @@ const AppContext = createContext({});
  * - Populate the graphs with the stored data
  */
 const useAppContextProvider = () => {
-  const [graphData, setGraphData] = useState(testData);
+  const [graphData, setGraphData] = useState({});
   const [isDataLoading, setIsDataLoading] = useState(false);
+  const [error, setError] = useState(null);
 
   useLocalStorage({ graphData, setGraphData });
 
-  const getFiscalData = () => {
-    // TODO: Replace this with functionality to retrieve the data from the fiscalSummary endpoint
-    const fiscalDataRes = testData;
-    return fiscalDataRes;
+  const getFiscalData = async () => {
+    try {
+      const response = await axios.get(`${API_CONFIG.baseURL}${API_CONFIG.endpoints.fiscalSummary}`);
+      return response.data;
+    } catch (error) {
+      console.error('Error fetching fiscal data:', error);
+      throw error; // Propagate the error instead of falling back to test data
+    }
   };
 
   const getCitizenshipResults = async () => {
-    // TODO: Replace this with functionality to retrieve the data from the citizenshipSummary endpoint
-    const citizenshipRes = testData.citizenshipResults;
-    return citizenshipRes;
+    try {
+      const response = await axios.get(`${API_CONFIG.baseURL}${API_CONFIG.endpoints.citizenshipSummary}`);
+      return response.data;
+    } catch (error) {
+      console.error('Error fetching citizenship data:', error);
+      throw error; // Propagate the error instead of falling back to test data
+    }
   };
 
   const updateQuery = async () => {
     setIsDataLoading(true);
+    setError(null); // Clear any previous errors
   };
 
   const fetchData = async () => {
-    // TODO: fetch all the required data and set it to the graphData state
+    try {
+      const [fiscalData, citizenshipData] = await Promise.all([
+        getFiscalData(),
+        getCitizenshipResults()
+      ]);
+
+      setGraphData({
+        ...fiscalData,
+        citizenshipResults: citizenshipData
+      });
+    } catch (error) {
+      console.error('Error fetching data:', error);
+      setError(error.message || 'Failed to fetch data');
+      setGraphData({}); // Clear the data on error
+    } finally {
+      setIsDataLoading(false);
+    }
   };
 
   const clearQuery = () => {
     setGraphData({});
+    setError(null);
   };
 
   const getYears = () => graphData?.yearResults?.map(({ fiscal_year }) => Number(fiscal_year)) ?? [];
@@ -53,6 +88,7 @@ const useAppContextProvider = () => {
     graphData,
     setGraphData,
     isDataLoading,
+    error,
     updateQuery,
     clearQuery,
     getYears,
