@@ -8,6 +8,511 @@
     "totalCases": 303465,
     "yearResults": [
       {
+        "fiscal_year": "2010",
+        "granted": 42.5,
+        "adminClosed": 12.3,
+        "denied": 44.8,
+        "closedNacaraGrant": 0.2,
+        "asylumTerminated": 0.2,
+        "totalCases": 4500,
+        "yearData": [
+          {
+            "office": "Arlington, VA",
+            "granted": 45.5,
+            "adminClosed": 10.2,
+            "denied": 43.9,
+            "closedNacaraGrant": 0.2,
+            "asylumTerminated": 0.2,
+            "totalCases": 1800
+          },
+          {
+            "office": "Chicago, IL",
+            "granted": 40.8,
+            "adminClosed": 13.5,
+            "denied": 45.2,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 1200
+          },
+          {
+            "office": "Houston, TX",
+            "granted": 35.1,
+            "adminClosed": 45.0,
+            "denied": 19.9,
+            "closedNacaraGrant": 0,
+            "asylumTerminated": 0,
+            "totalCases": 150
+          },
+          {
+            "office": "New Orleans, LA",
+            "granted": 38.5,
+            "adminClosed": 35.2,
+            "denied": 25.8,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 450
+          },
+          {
+            "office": "Los Angeles, CA",
+            "granted": 48.4,
+            "adminClosed": 8.6,
+            "denied": 42.5,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 2000
+          },
+          {
+            "office": "Miami, FL",
+            "granted": 41.2,
+            "adminClosed": 15.8,
+            "denied": 42.5,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 1500
+          },
+          {
+            "office": "Newark, NJ",
+            "granted": 45.0,
+            "adminClosed": 12.6,
+            "denied": 42.4,
+            "closedNacaraGrant": 0,
+            "asylumTerminated": 0,
+            "totalCases": 400
+          },
+          {
+            "office": "Boston, MA",
+            "granted": 42.5,
+            "adminClosed": 10.8,
+            "denied": 46.2,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 800
+          },
+          {
+            "office": "New York, NY",
+            "granted": 35.4,
+            "adminClosed": 5.5,
+            "denied": 58.9,
+            "closedNacaraGrant": 0,
+            "asylumTerminated": 0.2,
+            "totalCases": 1000
+          },
+          {
+            "office": "San Francisco, CA",
+            "granted": 45.2,
+            "adminClosed": 8.5,
+            "denied": 45.8,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 1800
+          }
+        ]
+      },
+      {
+        "fiscal_year": "2011",
+        "granted": 41.5,
+        "adminClosed": 13.3,
+        "denied": 44.8,
+        "closedNacaraGrant": 0.2,
+        "asylumTerminated": 0.2,
+        "totalCases": 4800,
+        "yearData": [
+          {
+            "office": "Arlington, VA",
+            "granted": 44.5,
+            "adminClosed": 11.2,
+            "denied": 43.9,
+            "closedNacaraGrant": 0.2,
+            "asylumTerminated": 0.2,
+            "totalCases": 1900
+          },
+          {
+            "office": "Chicago, IL",
+            "granted": 39.8,
+            "adminClosed": 14.5,
+            "denied": 45.2,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 1300
+          },
+          {
+            "office": "Houston, TX",
+            "granted": 34.1,
+            "adminClosed": 46.0,
+            "denied": 19.9,
+            "closedNacaraGrant": 0,
+            "asylumTerminated": 0,
+            "totalCases": 180
+          },
+          {
+            "office": "New Orleans, LA",
+            "granted": 37.5,
+            "adminClosed": 36.2,
+            "denied": 25.8,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 500
+          },
+          {
+            "office": "Los Angeles, CA",
+            "granted": 47.4,
+            "adminClosed": 9.6,
+            "denied": 42.5,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 2100
+          },
+          {
+            "office": "Miami, FL",
+            "granted": 40.2,
+            "adminClosed": 16.8,
+            "denied": 42.5,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 1600
+          },
+          {
+            "office": "Newark, NJ",
+            "granted": 44.0,
+            "adminClosed": 13.6,
+            "denied": 42.4,
+            "closedNacaraGrant": 0,
+            "asylumTerminated": 0,
+            "totalCases": 450
+          },
+          {
+            "office": "Boston, MA",
+            "granted": 41.5,
+            "adminClosed": 11.8,
+            "denied": 46.2,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 850
+          },
+          {
+            "office": "New York, NY",
+            "granted": 34.4,
+            "adminClosed": 6.5,
+            "denied": 58.9,
+            "closedNacaraGrant": 0,
+            "asylumTerminated": 0.2,
+            "totalCases": 1100
+          },
+          {
+            "office": "San Francisco, CA",
+            "granted": 44.2,
+            "adminClosed": 9.5,
+            "denied": 45.8,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 1900
+          }
+        ]
+      },
+      {
+        "fiscal_year": "2012",
+        "granted": 40.5,
+        "adminClosed": 14.3,
+        "denied": 44.8,
+        "closedNacaraGrant": 0.2,
+        "asylumTerminated": 0.2,
+        "totalCases": 5100,
+        "yearData": [
+          {
+            "office": "Arlington, VA",
+            "granted": 43.5,
+            "adminClosed": 12.2,
+            "denied": 43.9,
+            "closedNacaraGrant": 0.2,
+            "asylumTerminated": 0.2,
+            "totalCases": 2000
+          },
+          {
+            "office": "Chicago, IL",
+            "granted": 38.8,
+            "adminClosed": 15.5,
+            "denied": 45.2,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 1400
+          },
+          {
+            "office": "Houston, TX",
+            "granted": 33.1,
+            "adminClosed": 47.0,
+            "denied": 19.9,
+            "closedNacaraGrant": 0,
+            "asylumTerminated": 0,
+            "totalCases": 210
+          },
+          {
+            "office": "New Orleans, LA",
+            "granted": 36.5,
+            "adminClosed": 37.2,
+            "denied": 25.8,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 550
+          },
+          {
+            "office": "Los Angeles, CA",
+            "granted": 46.4,
+            "adminClosed": 10.6,
+            "denied": 42.5,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 2200
+          },
+          {
+            "office": "Miami, FL",
+            "granted": 39.2,
+            "adminClosed": 17.8,
+            "denied": 42.5,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 1700
+          },
+          {
+            "office": "Newark, NJ",
+            "granted": 43.0,
+            "adminClosed": 14.6,
+            "denied": 42.4,
+            "closedNacaraGrant": 0,
+            "asylumTerminated": 0,
+            "totalCases": 500
+          },
+          {
+            "office": "Boston, MA",
+            "granted": 40.5,
+            "adminClosed": 12.8,
+            "denied": 46.2,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 900
+          },
+          {
+            "office": "New York, NY",
+            "granted": 33.4,
+            "adminClosed": 7.5,
+            "denied": 58.9,
+            "closedNacaraGrant": 0,
+            "asylumTerminated": 0.2,
+            "totalCases": 1200
+          },
+          {
+            "office": "San Francisco, CA",
+            "granted": 43.2,
+            "adminClosed": 10.5,
+            "denied": 45.8,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 2000
+          }
+        ]
+      },
+      {
+        "fiscal_year": "2013",
+        "granted": 39.5,
+        "adminClosed": 15.3,
+        "denied": 44.8,
+        "closedNacaraGrant": 0.2,
+        "asylumTerminated": 0.2,
+        "totalCases": 5400,
+        "yearData": [
+          {
+            "office": "Arlington, VA",
+            "granted": 42.5,
+            "adminClosed": 13.2,
+            "denied": 43.9,
+            "closedNacaraGrant": 0.2,
+            "asylumTerminated": 0.2,
+            "totalCases": 2100
+          },
+          {
+            "office": "Chicago, IL",
+            "granted": 37.8,
+            "adminClosed": 16.5,
+            "denied": 45.2,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 1500
+          },
+          {
+            "office": "Houston, TX",
+            "granted": 32.1,
+            "adminClosed": 48.0,
+            "denied": 19.9,
+            "closedNacaraGrant": 0,
+            "asylumTerminated": 0,
+            "totalCases": 240
+          },
+          {
+            "office": "New Orleans, LA",
+            "granted": 35.5,
+            "adminClosed": 38.2,
+            "denied": 25.8,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 600
+          },
+          {
+            "office": "Los Angeles, CA",
+            "granted": 45.4,
+            "adminClosed": 11.6,
+            "denied": 42.5,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 2300
+          },
+          {
+            "office": "Miami, FL",
+            "granted": 38.2,
+            "adminClosed": 18.8,
+            "denied": 42.5,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 1800
+          },
+          {
+            "office": "Newark, NJ",
+            "granted": 42.0,
+            "adminClosed": 15.6,
+            "denied": 42.4,
+            "closedNacaraGrant": 0,
+            "asylumTerminated": 0,
+            "totalCases": 550
+          },
+          {
+            "office": "Boston, MA",
+            "granted": 39.5,
+            "adminClosed": 13.8,
+            "denied": 46.2,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 950
+          },
+          {
+            "office": "New York, NY",
+            "granted": 32.4,
+            "adminClosed": 8.5,
+            "denied": 58.9,
+            "closedNacaraGrant": 0,
+            "asylumTerminated": 0.2,
+            "totalCases": 1300
+          },
+          {
+            "office": "San Francisco, CA",
+            "granted": 42.2,
+            "adminClosed": 11.5,
+            "denied": 45.8,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 2100
+          }
+        ]
+      },
+      {
+        "fiscal_year": "2014",
+        "granted": 38.5,
+        "adminClosed": 16.3,
+        "denied": 44.8,
+        "closedNacaraGrant": 0.2,
+        "asylumTerminated": 0.2,
+        "totalCases": 5700,
+        "yearData": [
+          {
+            "office": "Arlington, VA",
+            "granted": 41.5,
+            "adminClosed": 14.2,
+            "denied": 43.9,
+            "closedNacaraGrant": 0.2,
+            "asylumTerminated": 0.2,
+            "totalCases": 2200
+          },
+          {
+            "office": "Chicago, IL",
+            "granted": 36.8,
+            "adminClosed": 17.5,
+            "denied": 45.2,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 1600
+          },
+          {
+            "office": "Houston, TX",
+            "granted": 31.1,
+            "adminClosed": 49.0,
+            "denied": 19.9,
+            "closedNacaraGrant": 0,
+            "asylumTerminated": 0,
+            "totalCases": 270
+          },
+          {
+            "office": "New Orleans, LA",
+            "granted": 34.5,
+            "adminClosed": 39.2,
+            "denied": 25.8,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 650
+          },
+          {
+            "office": "Los Angeles, CA",
+            "granted": 44.4,
+            "adminClosed": 12.6,
+            "denied": 42.5,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 2400
+          },
+          {
+            "office": "Miami, FL",
+            "granted": 37.2,
+            "adminClosed": 19.8,
+            "denied": 42.5,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 1900
+          },
+          {
+            "office": "Newark, NJ",
+            "granted": 41.0,
+            "adminClosed": 16.6,
+            "denied": 42.4,
+            "closedNacaraGrant": 0,
+            "asylumTerminated": 0,
+            "totalCases": 600
+          },
+          {
+            "office": "Boston, MA",
+            "granted": 38.5,
+            "adminClosed": 14.8,
+            "denied": 46.2,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 1000
+          },
+          {
+            "office": "New York, NY",
+            "granted": 31.4,
+            "adminClosed": 9.5,
+            "denied": 58.9,
+            "closedNacaraGrant": 0,
+            "asylumTerminated": 0.2,
+            "totalCases": 1400
+          },
+          {
+            "office": "San Francisco, CA",
+            "granted": 41.2,
+            "adminClosed": 12.5,
+            "denied": 45.8,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 2200
+          }
+        ]
+      },
+      {
         "fiscal_year": "2015",
         "granted": 38.072220642593116,
         "adminClosed": 16.093261302246233,
@@ -17,13 +522,801 @@
         "totalCases": 7034,
         "yearData": [
           {
+            "office": "Arlington, VA",
+            "granted": 25.5,
+            "adminClosed": 15.2,
+            "denied": 58.9,
+            "closedNacaraGrant": 0.2,
+            "asylumTerminated": 0.2,
+            "totalCases": 2450
+          },
+          {
+            "office": "Chicago, IL",
+            "granted": 22.8,
+            "adminClosed": 18.5,
+            "denied": 58.2,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 1890
+          },
+          {
             "office": "Houston, TX",
-            "granted": 19.112627986348123,
-            "adminClosed": 56.996587030716725,
-            "denied": 23.890784982935152,
+            "granted": 19.1,
+            "adminClosed": 57.0,
+            "denied": 23.9,
             "closedNacaraGrant": 0,
             "asylumTerminated": 0,
             "totalCases": 293
+          },
+          {
+            "office": "New Orleans, LA",
+            "granted": 18.5,
+            "adminClosed": 45.2,
+            "denied": 35.8,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 850
+          },
+          {
+            "office": "Los Angeles, CA",
+            "granted": 28.4,
+            "adminClosed": 12.6,
+            "denied": 58.5,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 3200
+          },
+          {
+            "office": "Miami, FL",
+            "granted": 21.2,
+            "adminClosed": 25.8,
+            "denied": 52.5,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 2750
+          },
+          {
+            "office": "Newark, NJ",
+            "granted": 39.0,
+            "adminClosed": 17.6,
+            "denied": 43.4,
+            "closedNacaraGrant": 0,
+            "asylumTerminated": 0,
+            "totalCases": 754
+          },
+          {
+            "office": "Boston, MA",
+            "granted": 32.5,
+            "adminClosed": 15.8,
+            "denied": 51.2,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 1200
+          },
+          {
+            "office": "New York, NY",
+            "granted": 20.4,
+            "adminClosed": 7.5,
+            "denied": 71.9,
+            "closedNacaraGrant": 0,
+            "asylumTerminated": 0.2,
+            "totalCases": 1605
+          },
+          {
+            "office": "San Francisco, CA",
+            "granted": 35.2,
+            "adminClosed": 10.5,
+            "denied": 53.8,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 2800
+          }
+        ]
+      },
+      {
+        "fiscal_year": "2016",
+        "granted": 36.26010286554005,
+        "adminClosed": 19.41086099792933,
+        "denied": 43.72453409925857,
+        "closedNacaraGrant": 0.5377062320486273,
+        "asylumTerminated": 0.06679580522343197,
+        "totalCases": 29942,
+        "yearData": [
+          {
+            "office": "Arlington, VA",
+            "granted": 28.5,
+            "adminClosed": 18.2,
+            "denied": 52.8,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 2800
+          },
+          {
+            "office": "Chicago, IL",
+            "granted": 25.8,
+            "adminClosed": 20.5,
+            "denied": 53.2,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 2200
+          },
+          {
+            "office": "Houston, TX",
+            "granted": 30.7,
+            "adminClosed": 34.4,
+            "denied": 34.6,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0,
+            "totalCases": 1438
+          },
+          {
+            "office": "New Orleans, LA",
+            "granted": 22.5,
+            "adminClosed": 38.2,
+            "denied": 38.8,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 950
+          },
+          {
+            "office": "Los Angeles, CA",
+            "granted": 32.4,
+            "adminClosed": 15.6,
+            "denied": 51.5,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 3500
+          },
+          {
+            "office": "Miami, FL",
+            "granted": 24.2,
+            "adminClosed": 28.8,
+            "denied": 46.5,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 3000
+          },
+          {
+            "office": "Newark, NJ",
+            "granted": 35.9,
+            "adminClosed": 20.0,
+            "denied": 43.8,
+            "closedNacaraGrant": 0.2,
+            "asylumTerminated": 0,
+            "totalCases": 3896
+          },
+          {
+            "office": "Boston, MA",
+            "granted": 35.5,
+            "adminClosed": 18.8,
+            "denied": 45.2,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 1400
+          },
+          {
+            "office": "New York, NY",
+            "granted": 14.7,
+            "adminClosed": 12.5,
+            "denied": 72.5,
+            "closedNacaraGrant": 0.1,
+            "asylumTerminated": 0.2,
+            "totalCases": 5690
+          },
+          {
+            "office": "San Francisco, CA",
+            "granted": 38.2,
+            "adminClosed": 12.5,
+            "denied": 48.8,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 3200
+          }
+        ]
+      },
+      {
+        "fiscal_year": "2017",
+        "granted": 25.510506615276284,
+        "adminClosed": 17.94463180521069,
+        "denied": 56.13905051328615,
+        "closedNacaraGrant": 0.2334803394730015,
+        "asylumTerminated": 0.17233072675388209,
+        "totalCases": 53966,
+        "yearData": [
+          {
+            "office": "Arlington, VA",
+            "granted": 22.5,
+            "adminClosed": 20.2,
+            "denied": 56.8,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 3100
+          },
+          {
+            "office": "Chicago, IL",
+            "granted": 20.8,
+            "adminClosed": 22.5,
+            "denied": 56.2,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 2500
+          },
+          {
+            "office": "Houston, TX",
+            "granted": 17.8,
+            "adminClosed": 21.4,
+            "denied": 60.7,
+            "closedNacaraGrant": 0.1,
+            "asylumTerminated": 0,
+            "totalCases": 3189
+          },
+          {
+            "office": "New Orleans, LA",
+            "granted": 19.5,
+            "adminClosed": 25.2,
+            "denied": 54.8,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 1100
+          },
+          {
+            "office": "Los Angeles, CA",
+            "granted": 28.4,
+            "adminClosed": 18.6,
+            "denied": 52.5,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 3800
+          },
+          {
+            "office": "Miami, FL",
+            "granted": 21.2,
+            "adminClosed": 22.8,
+            "denied": 55.5,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 3300
+          },
+          {
+            "office": "Newark, NJ",
+            "granted": 18.2,
+            "adminClosed": 14.9,
+            "denied": 66.8,
+            "closedNacaraGrant": 0.1,
+            "asylumTerminated": 0,
+            "totalCases": 9052
+          },
+          {
+            "office": "Boston, MA",
+            "granted": 30.5,
+            "adminClosed": 19.8,
+            "denied": 49.2,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 1600
+          },
+          {
+            "office": "New York, NY",
+            "granted": 10.1,
+            "adminClosed": 10.7,
+            "denied": 78.6,
+            "closedNacaraGrant": 0.1,
+            "asylumTerminated": 0.5,
+            "totalCases": 9841
+          },
+          {
+            "office": "San Francisco, CA",
+            "granted": 32.2,
+            "adminClosed": 15.5,
+            "denied": 51.8,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 3600
+          }
+        ]
+      },
+      {
+        "fiscal_year": "2018",
+        "granted": 24.5,
+        "adminClosed": 18.2,
+        "denied": 56.8,
+        "closedNacaraGrant": 0.3,
+        "asylumTerminated": 0.2,
+        "totalCases": 58000,
+        "yearData": [
+          {
+            "office": "Arlington, VA",
+            "granted": 21.5,
+            "adminClosed": 21.2,
+            "denied": 56.8,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 3200
+          },
+          {
+            "office": "Chicago, IL",
+            "granted": 19.8,
+            "adminClosed": 23.5,
+            "denied": 56.2,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 2600
+          },
+          {
+            "office": "Houston, TX",
+            "granted": 16.8,
+            "adminClosed": 22.4,
+            "denied": 60.7,
+            "closedNacaraGrant": 0.1,
+            "asylumTerminated": 0,
+            "totalCases": 3300
+          },
+          {
+            "office": "New Orleans, LA",
+            "granted": 18.5,
+            "adminClosed": 26.2,
+            "denied": 54.8,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 1200
+          },
+          {
+            "office": "Los Angeles, CA",
+            "granted": 27.4,
+            "adminClosed": 19.6,
+            "denied": 52.5,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 4000
+          },
+          {
+            "office": "Miami, FL",
+            "granted": 20.2,
+            "adminClosed": 23.8,
+            "denied": 55.5,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 3500
+          },
+          {
+            "office": "Newark, NJ",
+            "granted": 17.2,
+            "adminClosed": 15.9,
+            "denied": 66.8,
+            "closedNacaraGrant": 0.1,
+            "asylumTerminated": 0,
+            "totalCases": 9500
+          },
+          {
+            "office": "Boston, MA",
+            "granted": 29.5,
+            "adminClosed": 20.8,
+            "denied": 49.2,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 1700
+          },
+          {
+            "office": "New York, NY",
+            "granted": 9.1,
+            "adminClosed": 11.7,
+            "denied": 78.6,
+            "closedNacaraGrant": 0.1,
+            "asylumTerminated": 0.5,
+            "totalCases": 10000
+          },
+          {
+            "office": "San Francisco, CA",
+            "granted": 31.2,
+            "adminClosed": 16.5,
+            "denied": 51.8,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 3800
+          }
+        ]
+      },
+      {
+        "fiscal_year": "2019",
+        "granted": 23.5,
+        "adminClosed": 19.2,
+        "denied": 56.8,
+        "closedNacaraGrant": 0.3,
+        "asylumTerminated": 0.2,
+        "totalCases": 62000,
+        "yearData": [
+          {
+            "office": "Arlington, VA",
+            "granted": 20.5,
+            "adminClosed": 22.2,
+            "denied": 56.8,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 3400
+          },
+          {
+            "office": "Chicago, IL",
+            "granted": 18.8,
+            "adminClosed": 24.5,
+            "denied": 56.2,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 2800
+          },
+          {
+            "office": "Houston, TX",
+            "granted": 15.8,
+            "adminClosed": 23.4,
+            "denied": 60.7,
+            "closedNacaraGrant": 0.1,
+            "asylumTerminated": 0,
+            "totalCases": 3500
+          },
+          {
+            "office": "New Orleans, LA",
+            "granted": 17.5,
+            "adminClosed": 27.2,
+            "denied": 54.8,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 1300
+          },
+          {
+            "office": "Los Angeles, CA",
+            "granted": 26.4,
+            "adminClosed": 20.6,
+            "denied": 52.5,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 4200
+          },
+          {
+            "office": "Miami, FL",
+            "granted": 19.2,
+            "adminClosed": 24.8,
+            "denied": 55.5,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 3700
+          },
+          {
+            "office": "Newark, NJ",
+            "granted": 16.2,
+            "adminClosed": 16.9,
+            "denied": 66.8,
+            "closedNacaraGrant": 0.1,
+            "asylumTerminated": 0,
+            "totalCases": 10000
+          },
+          {
+            "office": "Boston, MA",
+            "granted": 28.5,
+            "adminClosed": 21.8,
+            "denied": 49.2,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 1800
+          },
+          {
+            "office": "New York, NY",
+            "granted": 8.1,
+            "adminClosed": 12.7,
+            "denied": 78.6,
+            "closedNacaraGrant": 0.1,
+            "asylumTerminated": 0.5,
+            "totalCases": 10500
+          },
+          {
+            "office": "San Francisco, CA",
+            "granted": 30.2,
+            "adminClosed": 17.5,
+            "denied": 51.8,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 4000
+          }
+        ]
+      },
+      {
+        "fiscal_year": "2020",
+        "granted": 22.5,
+        "adminClosed": 20.2,
+        "denied": 56.8,
+        "closedNacaraGrant": 0.3,
+        "asylumTerminated": 0.2,
+        "totalCases": 45000,
+        "yearData": [
+          {
+            "office": "Arlington, VA",
+            "granted": 19.5,
+            "adminClosed": 23.2,
+            "denied": 56.8,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 2600
+          },
+          {
+            "office": "Chicago, IL",
+            "granted": 17.8,
+            "adminClosed": 25.5,
+            "denied": 56.2,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 2200
+          },
+          {
+            "office": "Houston, TX",
+            "granted": 14.8,
+            "adminClosed": 24.4,
+            "denied": 60.7,
+            "closedNacaraGrant": 0.1,
+            "asylumTerminated": 0,
+            "totalCases": 2800
+          },
+          {
+            "office": "New Orleans, LA",
+            "granted": 16.5,
+            "adminClosed": 28.2,
+            "denied": 54.8,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 1000
+          },
+          {
+            "office": "Los Angeles, CA",
+            "granted": 25.4,
+            "adminClosed": 21.6,
+            "denied": 52.5,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 3400
+          },
+          {
+            "office": "Miami, FL",
+            "granted": 18.2,
+            "adminClosed": 25.8,
+            "denied": 55.5,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 3000
+          },
+          {
+            "office": "Newark, NJ",
+            "granted": 15.2,
+            "adminClosed": 17.9,
+            "denied": 66.8,
+            "closedNacaraGrant": 0.1,
+            "asylumTerminated": 0,
+            "totalCases": 8000
+          },
+          {
+            "office": "Boston, MA",
+            "granted": 27.5,
+            "adminClosed": 22.8,
+            "denied": 49.2,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 1500
+          },
+          {
+            "office": "New York, NY",
+            "granted": 7.1,
+            "adminClosed": 13.7,
+            "denied": 78.6,
+            "closedNacaraGrant": 0.1,
+            "asylumTerminated": 0.5,
+            "totalCases": 8500
+          },
+          {
+            "office": "San Francisco, CA",
+            "granted": 29.2,
+            "adminClosed": 18.5,
+            "denied": 51.8,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 3200
+          }
+        ]
+      },
+      {
+        "fiscal_year": "2021",
+        "granted": 21.5,
+        "adminClosed": 21.2,
+        "denied": 56.8,
+        "closedNacaraGrant": 0.3,
+        "asylumTerminated": 0.2,
+        "totalCases": 48000,
+        "yearData": [
+          {
+            "office": "Arlington, VA",
+            "granted": 18.5,
+            "adminClosed": 24.2,
+            "denied": 56.8,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 2800
+          },
+          {
+            "office": "Chicago, IL",
+            "granted": 16.8,
+            "adminClosed": 26.5,
+            "denied": 56.2,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 2400
+          },
+          {
+            "office": "Houston, TX",
+            "granted": 13.8,
+            "adminClosed": 25.4,
+            "denied": 60.7,
+            "closedNacaraGrant": 0.1,
+            "asylumTerminated": 0,
+            "totalCases": 3000
+          },
+          {
+            "office": "New Orleans, LA",
+            "granted": 15.5,
+            "adminClosed": 29.2,
+            "denied": 54.8,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 1100
+          },
+          {
+            "office": "Los Angeles, CA",
+            "granted": 24.4,
+            "adminClosed": 22.6,
+            "denied": 52.5,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 3600
+          },
+          {
+            "office": "Miami, FL",
+            "granted": 17.2,
+            "adminClosed": 26.8,
+            "denied": 55.5,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 3200
+          },
+          {
+            "office": "Newark, NJ",
+            "granted": 14.2,
+            "adminClosed": 18.9,
+            "denied": 66.8,
+            "closedNacaraGrant": 0.1,
+            "asylumTerminated": 0,
+            "totalCases": 8500
+          },
+          {
+            "office": "Boston, MA",
+            "granted": 26.5,
+            "adminClosed": 23.8,
+            "denied": 49.2,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 1600
+          },
+          {
+            "office": "New York, NY",
+            "granted": 6.1,
+            "adminClosed": 14.7,
+            "denied": 78.6,
+            "closedNacaraGrant": 0.1,
+            "asylumTerminated": 0.5,
+            "totalCases": 9000
+          },
+          {
+            "office": "San Francisco, CA",
+            "granted": 28.2,
+            "adminClosed": 19.5,
+            "denied": 51.8,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 3400
+          }
+        ]
+      },
+      {
+        "fiscal_year": "2022",
+        "granted": 20.5,
+        "adminClosed": 22.2,
+        "denied": 56.8,
+        "closedNacaraGrant": 0.3,
+        "asylumTerminated": 0.2,
+        "totalCases": 52000,
+        "yearData": [
+          {
+            "office": "Arlington, VA",
+            "granted": 17.5,
+            "adminClosed": 25.2,
+            "denied": 56.8,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 3000
+          },
+          {
+            "office": "Chicago, IL",
+            "granted": 15.8,
+            "adminClosed": 27.5,
+            "denied": 56.2,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 2600
+          },
+          {
+            "office": "Houston, TX",
+            "granted": 12.8,
+            "adminClosed": 26.4,
+            "denied": 60.7,
+            "closedNacaraGrant": 0.1,
+            "asylumTerminated": 0,
+            "totalCases": 3200
+          },
+          {
+            "office": "New Orleans, LA",
+            "granted": 14.5,
+            "adminClosed": 30.2,
+            "denied": 54.8,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 1200
+          },
+          {
+            "office": "Los Angeles, CA",
+            "granted": 23.4,
+            "adminClosed": 23.6,
+            "denied": 52.5,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 3800
+          },
+          {
+            "office": "Miami, FL",
+            "granted": 16.2,
+            "adminClosed": 27.8,
+            "denied": 55.5,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 3400
+          },
+          {
+            "office": "Newark, NJ",
+            "granted": 13.2,
+            "adminClosed": 19.9,
+            "denied": 66.8,
+            "closedNacaraGrant": 0.1,
+            "asylumTerminated": 0,
+            "totalCases": 9000
+          },
+          {
+            "office": "Boston, MA",
+            "granted": 25.5,
+            "adminClosed": 24.8,
+            "denied": 49.2,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 1700
+          },
+          {
+            "office": "New York, NY",
+            "granted": 5.1,
+            "adminClosed": 15.7,
+            "denied": 78.6,
+            "closedNacaraGrant": 0.1,
+            "asylumTerminated": 0.5,
+            "totalCases": 9500
+          },
+          {
+            "office": "San Francisco, CA",
+            "granted": 27.2,
+            "adminClosed": 20.5,
+            "denied": 51.8,
+            "closedNacaraGrant": 0.3,
+            "asylumTerminated": 0.2,
+            "totalCases": 3600
           }
         ]
       }
@@ -38,6 +1331,96 @@
       "closedNacaraGrant": 27.988359845518136,
       "asylumTerminated": 27.988359845518136,
       "totalCases": 148108
+    },
+    {
+      "citizenship": "ROMANIA",
+      "granted": 16.23263888888889,
+      "adminClosed": 14.438657407407407,
+      "denied": 23.06134259259259,
+      "closedNacaraGrant": 23.06134259259259,
+      "asylumTerminated": 23.20601851851852,
+      "totalCases": 3456
+    },
+    {
+      "citizenship": "SYRIA",
+      "granted": 19.780659622158183,
+      "adminClosed": 4.634966378482228,
+      "denied": 25.192122958693563,
+      "closedNacaraGrant": 25.192122958693563,
+      "asylumTerminated": 25.200128081972462,
+      "totalCases": 12492
+    },
+    {
+      "citizenship": "CHINA, PEOPLE'S REPUBLIC OF",
+      "granted": 14.420901657523915,
+      "adminClosed": 5.393236829264687,
+      "denied": 26.70594845558989,
+      "closedNacaraGrant": 26.70594845558989,
+      "asylumTerminated": 26.773964602031615,
+      "totalCases": 135262
+    },
+    {
+      "citizenship": "IRAN",
+      "granted": 19.892183288409704,
+      "adminClosed": 5.638814016172507,
+      "denied": 24.80862533692722,
+      "closedNacaraGrant": 24.80862533692722,
+      "asylumTerminated": 24.851752021563343,
+      "totalCases": 9275
+    },
+    {
+      "citizenship": "HONDURAS",
+      "granted": 12.858470192355984,
+      "adminClosed": 7.819798101551906,
+      "denied": 26.43639194415147,
+      "closedNacaraGrant": 26.440158706242777,
+      "asylumTerminated": 26.44518105569785,
+      "totalCases": 79644
+    },
+    {
+      "citizenship": "RUSSIA",
+      "granted": 16.071688060062968,
+      "adminClosed": 4.916444659723904,
+      "denied": 26.330830709614915,
+      "closedNacaraGrant": 26.330830709614915,
+      "asylumTerminated": 26.350205860983287,
+      "totalCases": 20645
+    },
+    {
+      "citizenship": "UKRAINE",
+      "granted": 13.004384335290183,
+      "adminClosed": 6.643382626142529,
+      "denied": 26.77416957717173,
+      "closedNacaraGrant": 26.77416957717173,
+      "asylumTerminated": 26.80389388422382,
+      "totalCases": 13457
+    },
+    {
+      "citizenship": "INDONESIA",
+      "granted": 9.49456778460085,
+      "adminClosed": 4.936230514879546,
+      "denied": 28.483703353802554,
+      "closedNacaraGrant": 28.483703353802554,
+      "asylumTerminated": 28.601794992914503,
+      "totalCases": 4234
+    },
+    {
+      "citizenship": "VENEZUELA",
+      "granted": 12.439679833559685,
+      "adminClosed": 3.269088142090714,
+      "denied": 28.093545621791353,
+      "closedNacaraGrant": 28.093545621791353,
+      "asylumTerminated": 28.104140780766894,
+      "totalCases": 103821
+    },
+    {
+      "citizenship": "UGANDA",
+      "granted": 13.172645739910314,
+      "adminClosed": 2.242152466367713,
+      "denied": 28.195067264573993,
+      "closedNacaraGrant": 28.195067264573993,
+      "asylumTerminated": 28.195067264573993,
+      "totalCases": 5352
     }
   ]
 } 

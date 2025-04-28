@@ -5,6 +5,7 @@ import { useLocalStorage } from '../hooks/useLocalStorage.js';
 const AppContext = createContext({});
 
 // API configuration
+// NOTE: The listed API (https://hrf-asylum-be-b.herokuapp.com/cases) is not working, so I made a mock API for now
 const API_CONFIG = {
   baseURL: 'http://localhost:3001', // Change this to the real API URL when available
   endpoints: {
