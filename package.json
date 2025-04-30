@@ -11,6 +11,7 @@
     "mock-api": "json-server --watch mock-api.json --port 3001"
   },
   "dependencies": {
+    "@auth0/auth0-react": "^2.3.0",
     "@testing-library/react": "^16.0.1",
     "axios": "^1.7.7",
     "capitalizr": "^1.0.3",
