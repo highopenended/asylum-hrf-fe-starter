@@ -1,10 +1,10 @@
-import pieChart from '../../../assets/pie-chart.png';
-import lineGraph from '../../../assets/line-graph.png';
-import barGraph from '../../../assets/bar-graph.png';
-import paperStack from '../../../assets/paper-stack.jpg';
-import { useNavigate } from 'react-router-dom';
-import { useDownloadData } from '../../../hooks/useDownloadData.js';
-import { decodeBase64 } from '../../../utils/decodeBase64.js';
+import pieChart from '/assets/pie-chart.png';
+import lineGraph from '/assets/line-graph.png';
+import barGraph from '/assets/bar-graph.png';
+import paperStack from '/assets/paper-stack.jpg';
+import { useRouter } from 'next/router';
+import { useDownloadData } from '@/hooks/useDownloadData.js';
+import { decodeBase64 } from '@/utils/decodeBase64.js';
 
 /**
  * TODO: Ticket 1:
@@ -12,7 +12,7 @@ import { decodeBase64 } from '../../../utils/decodeBase64.js';
  * Implement any button functionality implied by the landing page screenshot example (tickets/examples)
  */
 export const LandingPage = () => {
-  const navigate = useNavigate();
+  const router = useRouter();
   const { downloadCSV } = useDownloadData();
 
   const scrollToTop = () => {
@@ -60,7 +60,7 @@ export const LandingPage = () => {
 
         {/* Button Section */}
         <div className='flex justify-center items-center gap-4 p-16 mb-16'>
-          <button onClick={() => navigate('/graphs')} className='bg-gray-400 text-white py-2 px-4 font-bold'>
+          <button onClick={() => router.push('/graphs')} className='bg-gray-400 text-white py-2 px-4 font-bold'>
             View the Data
           </button>
           <button onClick={downloadCSV} className='bg-gray-400 text-white py-2 px-4 font-bold'>
