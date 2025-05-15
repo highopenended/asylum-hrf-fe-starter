@@ -28,16 +28,18 @@ const useAppContextProvider = () => {
   // Persist data in localStorage
   useLocalStorage({ graphData, setGraphData });
 
+  // TODO: Replace this with functionality to retrieve the data from the fiscalSummary endpoint
   const getFiscalData = async () => {
     try {
       const response = await axios.get(`${API_CONFIG.baseURL}${API_CONFIG.endpoints.fiscalSummary}`);
       return response.data;
     } catch (error) {
       console.error('Error fetching fiscal data:', error);
-      throw error;
+      throw error; // Propagate the error instead of falling back to test data
     }
   };
 
+  // TODO: Replace this with functionality to retrieve the data from the citizenshipSummary endpoint
   const getCitizenshipResults = async () => {
     try {
       const response = await axios.get(`${API_CONFIG.baseURL}${API_CONFIG.endpoints.citizenshipSummary}`);
@@ -53,6 +55,7 @@ const useAppContextProvider = () => {
     setError(null); // Clear any previous errors
   };
 
+  // TODO: fetch all the required data and set it to the graphData state
   const fetchData = async () => {
     try {
       const [fiscalData, citizenshipData] = await Promise.all([
